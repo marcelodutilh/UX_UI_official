@@ -9655,5 +9655,54 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.description__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.footer {
+  background-color: #121619;
+}
+
+.main-section__title {
+  font-family: "Playfair Display", serif;
+  color: #FFF;
+  height: 80vh;
+}
+
+.center {
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.navbar {
+  background-color: #121619;
+}
+
+.navbar a {
+  color: #FFF;
+}
+
+.navbar__brand {
+  width: 100px;
+}
+
+.styler-profile__black-women {
+  border-radius: 50%;
+}
+
+.styler-profile__description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.styler-profile__link {
+  color: #ECBCBA;
+}
+
+.btn {
+  border-radius: 20px;
+}
 
 /*# sourceMappingURL=styles.css.map */

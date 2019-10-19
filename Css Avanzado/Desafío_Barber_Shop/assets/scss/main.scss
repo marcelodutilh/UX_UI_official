@@ -5,3 +5,14 @@
 @import
 'abstracts/variables';
 
+@import
+'layouts/description',
+'layouts/footer',
+'layouts/main-section',
+'layouts/navbar',
+'layouts/paginator',
+'layouts/share-buttons',
+'layouts/styler-profile';
+
+@import
+'complements/buttons.scss'
