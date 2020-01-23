@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/_typography.scss","../sass/layout/_main.scss","../sass/layout/_sobre_mi.scss","../sass/abstracts/_variables.scss","../sass/layout/_experiencia.scss"],"names":[],"mappings":"AAQA;EACI;EACA,aAPG;;;ACHP;EACI;;;ACKJ;EALE,OAMgB;EALhB,QAKgB;EAJhB,eAIsB;;;AAGxB;EACI,kBCTQ;;;ACFZ;EACI;IACI;IACA;;;EAGJ;IACI","file":"styles.css"}

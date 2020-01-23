@@ -1,0 +1,31 @@
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+}
+
+.img_desktop {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 20%;
+}
+
+.sobre_mi {
+  background-color: #7CEA9C;
+}
+
+@media screen and (min-width: 600px) {
+  .year {
+    display: inline;
+    float: right;
+  }
+
+  .carrera {
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

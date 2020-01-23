@@ -1,0 +1,13 @@
+@mixin imagen($size, $radius) {
+  width: $size;
+  height: $size;
+  border-radius: $radius;
+}
+
+.img_desktop {
+  @include imagen(8rem, 20%);
+}
+
+.sobre_mi{
+    background-color: $verde_agua;
+}

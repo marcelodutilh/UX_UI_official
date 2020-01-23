@@ -1,0 +1,90 @@
+
+.logo{
+    width: 29px;
+
+}
+.imagen-nina{
+    width: 899px;
+}
+
+.recuadro_titulo{
+    width: 381px;
+    height: 440px;
+    left:899px;
+}
+
+.titulo{
+    font-family: 'PT Mono', monospace;
+    font-size: 78px;
+}
+
+.subtitulo1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.div_relativo{
+    position: relative;
+}
+
+.position_absolute{
+    position: absolute;
+}
+
+.div_absoluto{
+    position: absolute;
+}
+
+.recuadro_descriptivo_producto{
+    position: absolute;
+    height: 136px;
+    width: 469px;
+    background-color: #ffffff;
+    z-index: 2;
+    top: 310px;
+    left: 450px;
+}
+
+.numero{
+    font-family: 'PT Mono', monospace;
+    font-size: 40px;
+}
+
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.cuadrado2{
+    position: absolute;
+    height: 136px;
+    width: 136px;
+    background-color:#EACB31;
+    left: 903px;
+    top: 310px;
+    z-index: 3;
+
+}
+
+.cuadrado_rojo{
+    background-color:#E4572E;
+    z-index: 4;
+    left: 880px;
+    top: 290px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*font-family: 'PT Mono', monospace;
+font-family: 'Roboto', sans-serif;*/
