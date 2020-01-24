@@ -11,5 +11,5 @@ porque es el que mejor se adecua a la maqueta, ya que cuando sube la barra de co
 -luego el html plain vanilla
 - le agregaré al html el css con BEM y las restricciones del caso
 
-![sketch movil](screenshot_1)
-![sketch web](screenshot_2)
+![sketch movil](screenshot_1.png)
+![sketch web](screenshot_2.png)
