@@ -1,13 +1,46 @@
 @mixin imagen($size, $radius) {
-  width: $size;
-  height: $size;
+  max-width: $size;
+  max-height: $size;
   border-radius: $radius;
+  padding-top: 1em;
 }
 
 .img_desktop {
-  @include imagen(8rem, 20%);
+  @include imagen(8em,50%);
+  align-self: center;
 }
 
+//media query
 .sobre_mi{
     background-color: $verde_agua;
+    height: 20vh;
+
+}
+
+
+
+//media query
+@media (min-width: 700px) { 
+  .sobre_mi{
+    background-color: $verde_agua;
+    height: auto;
+
+}
+
+}
+
+@media (max-width: 707px){
+  .menu{
+    display: inline-table;
+    padding-top: 0px;
+  }
+  .img_desktop{
+    max-width: auto;
+    max-height: 20vh;
+  }
+
+}
+
+.menu{
+  padding-top: 30px;
 }

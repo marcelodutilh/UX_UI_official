@@ -3,18 +3,54 @@ h1 {
   font-weight: 900;
 }
 
+h5 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   font-family: "Lato", sans-serif;
 }
 
 .img_desktop {
-  width: 8rem;
-  height: 8rem;
-  border-radius: 20%;
+  max-width: 8em;
+  max-height: 8em;
+  border-radius: 50%;
+  padding-top: 1em;
+  align-self: center;
 }
 
 .sobre_mi {
   background-color: #7CEA9C;
+  height: 20vh;
+}
+
+@media (min-width: 700px) {
+  .sobre_mi {
+    background-color: #7CEA9C;
+    height: auto;
+  }
+}
+@media (max-width: 707px) {
+  .menu {
+    display: inline-table;
+    padding-top: 0px;
+  }
+
+  .img_desktop {
+    max-width: auto;
+    max-height: 20vh;
+  }
+}
+.menu {
+  padding-top: 30px;
 }
 
 @media screen and (min-width: 600px) {
@@ -26,6 +62,9 @@ h1 {
   .carrera {
     display: inline;
   }
+}
+.contact_button {
+  margin-top: 1em;
 }
 
 /*# sourceMappingURL=styles.css.map */
