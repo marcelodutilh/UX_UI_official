@@ -11,3 +11,5 @@ porque es el que mejor se adecua a la maqueta, ya que cuando sube la barra de co
 -luego el html plain vanilla
 - le agregaré al html el css con BEM y las restricciones del caso
 
+![alt test](foto1)
+![alt test](foto2)
